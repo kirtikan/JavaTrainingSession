@@ -16,7 +16,7 @@ public class ThirdHighestValueInArray {
 		//}
 		
 		TreeSet<Integer> treeSet = new TreeSet<Integer>();
-		for(Integer m : treeSet) {
+		for(Integer m : ar) {
 			treeSet.add(m);
 		}
 		
@@ -25,6 +25,7 @@ public class ThirdHighestValueInArray {
 		for(Integer val : treeSet) {
 			if(counter==desiredCounter) {
 				System.out.println(val);
+				break;
 			}
 			counter++;
 		}

@@ -13,7 +13,7 @@ public class StringManipulation {
 		System.out.println("***********************************************");
 		
 		System.out.println(str.indexOf('s'));  ///1st occurance of s
-		System.out.println(str.indexOf('s', str.indexOf('s')+1));  //1st occurance of s
+		System.out.println(str.indexOf('s', str.indexOf('s')+1));  //2nd occurance of s
 		
 		System.out.println("***********************************************");
 		

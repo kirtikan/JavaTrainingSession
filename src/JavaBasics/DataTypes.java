@@ -14,7 +14,7 @@ public class DataTypes {
 		// double data type
 		double d1= 12.33;
 		double d2 = 100;   //100.00
-		System.out.println(d2);
+		System.out.println(d2+d1);
 		
 		// char data type - Only single digit value, should be written in single quotes
 		char c1= 'a';

@@ -17,6 +17,7 @@ public class RegularExpressionPgm {
 	  System.out.println(Pattern.matches("[amn]", "abcd")); //false
 	  System.out.println(Pattern.matches("[amn]", "m")); //true
 	  System.out.println(Pattern.matches("[amn]", "ammmna")); //false --m & a comes more than once
+	  System.out.println(Pattern.matches("[amn]", "a"));
 	  
 	  System.out.println("**********RegEx Quantifiers******************");
 	  System.out.println("");
@@ -25,6 +26,7 @@ public class RegularExpressionPgm {
 	  System.out.println(Pattern.matches("[amn]?", "aaa")); //false
 	  System.out.println(Pattern.matches("[amn]?", "aammmnn")); //false
 	  System.out.println(Pattern.matches("[amn]?", "am")); //false
+	  System.out.println(Pattern.matches("[amn]?", "")); 
 	  
 	  System.out.println("");
 	  System.out.println("+ quantifier ....");  

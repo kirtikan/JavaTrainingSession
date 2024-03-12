@@ -17,7 +17,7 @@ public class ThrowsKeyword {
 		try {div();
 		}
 		catch(ArithmeticException e) {
-			
+			//e.printStackTrace();
 		}
 		
 	}

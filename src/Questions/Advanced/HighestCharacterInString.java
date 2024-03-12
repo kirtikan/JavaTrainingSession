@@ -1,7 +1,9 @@
 package Questions.Advanced;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map.Entry;
+import java.util.TreeSet;
 
 public class HighestCharacterInString {
 
@@ -19,12 +21,16 @@ public class HighestCharacterInString {
 			}
 		}
 		
-		int max=0;	
-		for(Entry<Character,Integer> entry :hm.entrySet()) {
-			if(entry.getValue()>max) {
-				max=entry.getValue();
-			}
-		}
+//		int max=0;	
+//		for(Entry<Character,Integer> entry :hm.entrySet()) {
+//			if(entry.getValue()>max) {
+//				max=entry.getValue();
+//			}
+//		}
+		
+		TreeSet<Integer> tset = new TreeSet<Integer>(hm.values());
+		ArrayList<Integer> arrL = new ArrayList<Integer>(tset);
+		int max=arrL.get(arrL.size()-1);
 		
 		for(Entry<Character,Integer> en : hm.entrySet()) {
 			if(en.getValue()==max) {

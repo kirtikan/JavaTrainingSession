@@ -30,9 +30,6 @@ public class SortHashMapBasedOnValues {
 		//TreeSet<Integer> t = new TreeSet<Integer>(hm.values());
 		
 		List<Integer> list = new ArrayList<Integer>(hm.values());		
-//		for(Entry<Character,Integer> val :hm.entrySet()) {
-//			list.add(val.getValue());
-//		}
 		Collections.sort(list);
 
 		//through Comparator

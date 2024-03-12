@@ -10,7 +10,7 @@ public class CallByValAndCallByRef {
 		
 		int x =10;
 		int y =20;
-		obj.testSum(x, y);  // call by value or pass by value OR COPIES OF VALUES  (i.e x and y)
+		System.out.println("sum"+obj.testSum(x, y));  // call by value or pass by value OR COPIES OF VALUES  (i.e x and y)
 		
 		obj.p = 50;
 		obj.q = 60;
@@ -24,8 +24,6 @@ public class CallByValAndCallByRef {
 	
 	public int testSum(int a, int b)
 	{
-		a=30;
-		b=40;
 		int c = a+b;
 		return c;
 	}
