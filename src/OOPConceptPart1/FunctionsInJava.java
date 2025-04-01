@@ -8,7 +8,7 @@ public class FunctionsInJava {
 		FunctionsInJava obj = new FunctionsInJava();
 		
 		//method can't be created inside a method
-		// one Object will be created, obj is the reference variable , referring to this object
+		// One Object will be created, obj is the reference variable , referring to this object
 		//after creating the object, the copy of all the non static methods will be given to this object
 		//object can hold static method
 		

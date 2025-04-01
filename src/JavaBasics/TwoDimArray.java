@@ -44,7 +44,9 @@ public class TwoDimArray {
 		{
 			for(int col=0;col<s[0].length;col++)
 			{
-				System.out.println(s[row][col]);
+				System.out.print(s[row][col]);
+				if(col==4)
+					System.out.println("");
 			}
 		}
 	}

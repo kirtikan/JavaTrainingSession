@@ -23,13 +23,13 @@ public class WriteTextFile {
 	
 	public static void main(String[] args) throws IOException {
 		String txt ="This is Java Programming";
-		String filePath ="C:\\Users\\Kirti\\Documents\\testFile.txt";
+		String filePath ="C:\\Users\\Kirti Kanojiya\\Documents\\testFile.txt";
 		
-//		System.out.println("*******Writing through FileWriter********");
-//		writeUsingFileWriter(txt, filePath);
+		System.out.println("*******Writing through FileWriter********");
+		writeUsingFileWriter(txt, filePath);
 		
-		System.out.println("*******Writing through BufferedWriter********");
-		writeUsingBufferedWriter(txt, filePath);
+//		System.out.println("*******Writing through BufferedWriter********");
+//		writeUsingBufferedWriter(txt, filePath);
 	}
 
 }

@@ -13,6 +13,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Scanner;
@@ -20,16 +21,10 @@ import java.util.Set;
 import java.util.TreeSet;
 import java.util.regex.Pattern;
 
-public class PracticePgm {
-
-
+public class PracticePgm {	
 	
-
-	
-	
-	
-	public static void main(String[] args) throws FileNotFoundException, IOException  {
-
+	public static void main(String[] args) {
+		
 	}
 		
 }

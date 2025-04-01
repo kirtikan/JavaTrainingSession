@@ -18,6 +18,10 @@ public abstract class Bank {
 	
 	//Performances Abstraction is fast wrt interface
 	
+//  In abstract class, we have an instance variable, abstract methods, and non-abstract methods. 
+//	We need to initialize the non-abstract methods and instance variables, therefore abstract classes have 
+//	a constructor.
+	
 	int amt = 100;
 	static int val = 10;
 	final int rate = 10;

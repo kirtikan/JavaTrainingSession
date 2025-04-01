@@ -9,26 +9,26 @@ public class IncrementAndDecrementOperator {
 		int i =1;
 		int j=i++; //post increment
 		
-		System.out.println(i);
-		System.out.println(j);
+		System.out.println("value of i: "+i);
+		System.out.println("value of j: "+j);
 		
 		int a=1;
 		int b=++a; //pre increment
 		
-		System.out.println(a);
-		System.out.println(b);
+		System.out.println("value of a: "+a);
+		System.out.println("value of b: "+b);
 		
 		int m=2;
 		int n=m--; //post decrement
 		
-		System.out.println(m);
-		System.out.println(n);
+		System.out.println("value of m: "+m);
+		System.out.println("value of n: "+n);
 		
 		int p=2;
 		int q=--p; //pre decrement
 		
-		System.out.println(p);
-		System.out.println(q);
+		System.out.println("value of p: "+p);
+		System.out.println("value of q: "+q);
 	}
 
 }

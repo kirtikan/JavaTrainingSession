@@ -41,7 +41,7 @@ public class ReadTextFile {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 
-		String filePath = "C:\\Users\\Kirti\\Documents\\testFile.txt";
+		String filePath = "C:\\Users\\Kirti Kanojiya\\Documents\\testFile.txt";
 		System.out.println("*****Reading through Buffered Reader******");
 		readFileUsingBufferedReader(filePath);
 
